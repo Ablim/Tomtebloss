@@ -4,5 +4,6 @@
     <string name="app_name">Tomtebloss</string>
     <string name="menu_settings">Settings</string>
     <string name ="spark">Spark</string>
+    <string name="content_description">A button with images.</string>
 
 </resources>
