@@ -19,31 +19,104 @@ public final class R {
         public static final int spark13=0x7f020005;
         public static final int spark14=0x7f020006;
         public static final int spark15=0x7f020007;
-        public static final int spark2=0x7f020008;
-        public static final int spark3=0x7f020009;
-        public static final int spark4=0x7f02000a;
-        public static final int spark5=0x7f02000b;
-        public static final int spark6=0x7f02000c;
-        public static final int spark7=0x7f02000d;
-        public static final int spark8=0x7f02000e;
-        public static final int spark9=0x7f02000f;
-        public static final int spark_icon=0x7f020010;
+        public static final int spark16=0x7f020008;
+        public static final int spark17=0x7f020009;
+        public static final int spark18=0x7f02000a;
+        public static final int spark19=0x7f02000b;
+        public static final int spark2=0x7f02000c;
+        public static final int spark20=0x7f02000d;
+        public static final int spark21=0x7f02000e;
+        public static final int spark22=0x7f02000f;
+        public static final int spark23=0x7f020010;
+        public static final int spark24=0x7f020011;
+        public static final int spark25=0x7f020012;
+        public static final int spark26=0x7f020013;
+        public static final int spark27=0x7f020014;
+        public static final int spark28=0x7f020015;
+        public static final int spark29=0x7f020016;
+        public static final int spark3=0x7f020017;
+        public static final int spark30=0x7f020018;
+        public static final int spark31=0x7f020019;
+        public static final int spark32=0x7f02001a;
+        public static final int spark33=0x7f02001b;
+        public static final int spark34=0x7f02001c;
+        public static final int spark35=0x7f02001d;
+        public static final int spark36=0x7f02001e;
+        public static final int spark37=0x7f02001f;
+        public static final int spark38=0x7f020020;
+        public static final int spark39=0x7f020021;
+        public static final int spark4=0x7f020022;
+        public static final int spark40=0x7f020023;
+        public static final int spark41=0x7f020024;
+        public static final int spark42=0x7f020025;
+        public static final int spark43=0x7f020026;
+        public static final int spark44=0x7f020027;
+        public static final int spark45=0x7f020028;
+        public static final int spark46=0x7f020029;
+        public static final int spark47=0x7f02002a;
+        public static final int spark48=0x7f02002b;
+        public static final int spark49=0x7f02002c;
+        public static final int spark5=0x7f02002d;
+        public static final int spark50=0x7f02002e;
+        public static final int spark51=0x7f02002f;
+        public static final int spark52=0x7f020030;
+        public static final int spark53=0x7f020031;
+        public static final int spark54=0x7f020032;
+        public static final int spark55=0x7f020033;
+        public static final int spark56=0x7f020034;
+        public static final int spark57=0x7f020035;
+        public static final int spark58=0x7f020036;
+        public static final int spark59=0x7f020037;
+        public static final int spark6=0x7f020038;
+        public static final int spark60=0x7f020039;
+        public static final int spark61=0x7f02003a;
+        public static final int spark62=0x7f02003b;
+        public static final int spark63=0x7f02003c;
+        public static final int spark64=0x7f02003d;
+        public static final int spark65=0x7f02003e;
+        public static final int spark66=0x7f02003f;
+        public static final int spark67=0x7f020040;
+        public static final int spark68=0x7f020041;
+        public static final int spark69=0x7f020042;
+        public static final int spark7=0x7f020043;
+        public static final int spark70=0x7f020044;
+        public static final int spark71=0x7f020045;
+        public static final int spark72=0x7f020046;
+        public static final int spark73=0x7f020047;
+        public static final int spark74=0x7f020048;
+        public static final int spark75=0x7f020049;
+        public static final int spark76=0x7f02004a;
+        public static final int spark77=0x7f02004b;
+        public static final int spark78=0x7f02004c;
+        public static final int spark79=0x7f02004d;
+        public static final int spark8=0x7f02004e;
+        public static final int spark80=0x7f02004f;
+        public static final int spark81=0x7f020050;
+        public static final int spark82=0x7f020051;
+        public static final int spark83=0x7f020052;
+        public static final int spark84=0x7f020053;
+        public static final int spark85=0x7f020054;
+        public static final int spark9=0x7f020055;
+        public static final int spark_icon=0x7f020056;
     }
     public static final class id {
-        public static final int menu_settings=0x7f070001;
-        public static final int spark_button=0x7f070000;
+        public static final int menu_settings=0x7f080001;
+        public static final int spark_button=0x7f080000;
     }
     public static final class layout {
         public static final int activity_tomtebloss_main=0x7f030000;
     }
     public static final class menu {
-        public static final int activity_tomtebloss_main=0x7f060000;
+        public static final int activity_tomtebloss_main=0x7f070000;
+    }
+    public static final class raw {
+        public static final int spark=0x7f040000;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int content_description=0x7f040003;
-        public static final int menu_settings=0x7f040001;
-        public static final int spark=0x7f040002;
+        public static final int app_name=0x7f050000;
+        public static final int content_description=0x7f050003;
+        public static final int menu_settings=0x7f050001;
+        public static final int spark=0x7f050002;
     }
     public static final class style {
         /** 
@@ -67,10 +140,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppBaseTheme=0x7f060000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050001;
+        public static final int AppTheme=0x7f060001;
     }
 }

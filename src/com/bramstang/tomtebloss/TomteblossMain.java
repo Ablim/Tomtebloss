@@ -5,7 +5,9 @@ import java.util.TimerTask;
 import java.util.concurrent.atomic.AtomicBoolean;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.res.Resources;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.widget.ImageButton;
 
@@ -34,7 +36,10 @@ public class TomteblossMain extends Activity {
 	protected void onStart() {
 		super.onStart();
 		timer = new Timer();
-		timer.schedule(new ImageTask(), 75, 75);
+		timer.schedule(new ImageTask(), 150, 150);
+		
+//		MediaPlayer player = MediaPlayer.create(this, R.raw.spark);
+//		player.start();
 	}
 
 	private class ImageTask extends TimerTask {
@@ -45,7 +50,7 @@ public class TomteblossMain extends Activity {
 
 		public ImageTask() {
 			index = 1;
-			maxIndex = 15;
+			maxIndex = 85;
 			lock = new AtomicBoolean();
 		}
 
